@@ -13,7 +13,7 @@
 
 The **primary objective** is to ensure that paragraphs in the text flow in the correct order. The OCR engine does not always recognize the paragraph blocks in the right order, especially on pages with columns.
 
-**Paragraphs must be separated by an empty new line (pressing Enter).**
+**Paragraphs must be separated by an empty new line (pressing Enter).** We consider lines such as "In Case 1/54," as separate paragraphs, but the most important thing is to identify and separate *true* paragraphs in the ordinary sense of the word, i.e. blocks of sentences.
 
 Additionally, you may also implement the following fixes:
 - if you see an obvious typo, you can correct it
@@ -25,3 +25,7 @@ Additionally, you may also implement the following fixes:
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 
 We will in any case do an automated clean up after all pages are re-assembled.
+
+The following is an example of successful paragraph editing in line with the instructions:
+
+![image](https://user-images.githubusercontent.com/46047818/153920021-2200ce73-cc10-4a14-afa9-72e37991ab92.png)
