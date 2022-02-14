@@ -4,14 +4,16 @@
 
 1. Navigate to http://www.iuropa.pol.gu.se/CJEU-database/CJEU-text-corpus/text-editor
 2. Sign in with your credentials
-3. Check text against page image and if necessary edit text
-4. Click "Code as correct" when done
+3. Search for an ECLI number to start editing
+4. Check text against page image and if necessary edit text
+5. Click "Code as correct" when the check is complete
+6. Click "Next" in the top right to navigate to the next page to edit
 
 ## Coding decisions
 
-The primary objective is to ensure that paragraphs in the text flow in the correct order. The OCR engine does not always recognize the paragraph blocks in the right order, especially on pages with columns.
+The **primary objective** is to ensure that paragraphs in the text flow in the correct order. The OCR engine does not always recognize the paragraph blocks in the right order, especially on pages with columns.
 
-Paragraphs must be separated by an empty new line (pressing Enter).
+**Paragraphs must be separated by an empty new line (pressing Enter).**
 
 Additionally, you may also implement the following fixes:
 - if you see an obvious typo, you can correct it
