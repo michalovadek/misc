@@ -26,6 +26,8 @@ Additionally, you may also implement the following fixes:
 
 We will in any case do an automated clean up after all pages are re-assembled.
 
+## Example
+
 The following is an example of successful paragraph editing in line with the instructions:
 
 ![image](https://user-images.githubusercontent.com/46047818/153920021-2200ce73-cc10-4a14-afa9-72e37991ab92.png)
