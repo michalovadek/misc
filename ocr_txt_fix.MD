@@ -22,6 +22,6 @@ Additionally, you may also implement the following fixes:
 - delete the running header on top of the page
 - remove the page number from the bottom of the page
 - remove any weird characters that obviously are not part of the original text
-- delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document begins on the same page)
+- delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 
 We will in any case do an automated clean up after all pages are re-assembled.
