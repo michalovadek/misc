@@ -13,11 +13,10 @@
 
 The **primary objective** is to ensure that paragraphs in the text flow in the correct order. The OCR engine does not always recognize the paragraph blocks in the right order, especially on pages with columns.
 
-**Paragraphs must be separated by an empty new line (pressing Enter).** We consider lines such as "In Case 1/54," as separate paragraphs, but the most important thing is to identify and separate *true* paragraphs in the ordinary sense of the word, i.e. blocks of sentences.
+**Paragraphs must be separated by an empty new line (pressing Enter).** We consider lines such as "In Case 1/54," as separate paragraphs, but the most important thing is to identify and separate *true* paragraphs in the ordinary sense of the word, i.e. blocks of sentences. Assembling the raw text (you may encounter some light preprocessing) into correct paragraph blocks will typically entail merging lines but you may also need to move text around or split wrongly merged text.
 
 Additionally, you may also implement the following fixes:
 - if you see an obvious typo, you can correct it
-- concatenate lines when a sentence spans several lines
 - concatenate hyphenated words at the end of a line
 - delete the running header on top of the page
 - remove the page number from the bottom of the page
