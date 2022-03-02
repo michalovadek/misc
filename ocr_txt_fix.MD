@@ -4,10 +4,10 @@
 
 1. Navigate to http://www.iuropa.pol.gu.se/CJEU-database/CJEU-text-corpus/text-editor
 2. Sign in with your credentials
-3. Search for an ECLI number to start editing
+3. Search for an ECLI number or based on criteria to start editing
 4. Check text against page image and if necessary edit text
 5. Click "Code as correct" when the check is complete
-6. Click "Next" in the top right to navigate to the next page to edit
+6. You are automatically taken to the next page to edit
 
 ## Coding decisions
 
@@ -30,3 +30,7 @@ We will in any case do an automated clean up after all pages are re-assembled.
 The following is an example of successful paragraph editing in line with the instructions:
 
 ![image](https://user-images.githubusercontent.com/46047818/153920021-2200ce73-cc10-4a14-afa9-72e37991ab92.png)
+
+## Contact
+
+In case you encounter any issues or have questions concerning editing, please email me at michal dot ovadek at gu dot se.
