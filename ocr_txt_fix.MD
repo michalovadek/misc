@@ -33,7 +33,7 @@ We are aware that in some situations you are forced to exercise your judgment to
 
 ## Examples
 
-The following examples illustrate the desired end results of paragraph editing in line with the instructions:
+The following excertps illustrate the desired end results of paragraph editing in line with the instructions:
 
 ![image](https://user-images.githubusercontent.com/46047818/153920021-2200ce73-cc10-4a14-afa9-72e37991ab92.png)
 
