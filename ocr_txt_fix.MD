@@ -6,8 +6,10 @@
 2. Sign in with your credentials
 3. Search for an ECLI number or based on criteria to start editing
 4. Check text against page image and if necessary edit text
-5. Click "Code as correct" when the check is complete
+5. Click "Code as correct" when the check is complete to save the edit
 6. You are automatically taken to the next page to edit
+
+Note that if you leave the editing window open but you are inactive, you will be signed out after some time. Always complete the page you are on to prevent unsaved work being lost.
 
 ## Coding decisions
 
@@ -25,6 +27,9 @@ Additionally, you may also implement the following fixes:
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 
 We will in any case do an automated clean up after all pages are re-assembled.
+
+We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
+- line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
 
 ## Example
 
