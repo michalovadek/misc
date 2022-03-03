@@ -31,11 +31,13 @@ We will in any case do an automated clean up after all pages are re-assembled.
 We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
 - line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
 
-## Example
+## Examples
 
-The following is an example of successful paragraph editing in line with the instructions:
+The following examples illustrate the desired end results of paragraph editing in line with the instructions:
 
 ![image](https://user-images.githubusercontent.com/46047818/153920021-2200ce73-cc10-4a14-afa9-72e37991ab92.png)
+
+![image](https://user-images.githubusercontent.com/46047818/156618347-ab55652a-e6c3-4532-8808-56dcb67af066.png)
 
 ## Contact
 
