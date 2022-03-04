@@ -39,6 +39,10 @@ The following excertps illustrate the desired end results of paragraph editing i
 
 ![image](https://user-images.githubusercontent.com/46047818/156618347-ab55652a-e6c3-4532-8808-56dcb67af066.png)
 
+In the following example the text of the Advocate-General Opinion below the ruling does not pertain to the ECLI number we are editing and so it is deleted in the text editor.
+
+![image](https://user-images.githubusercontent.com/46047818/156821351-aefc549b-13d4-4d22-9ea3-140c6fa93045.png)
+
 ## Contact
 
 In case you encounter any issues or have questions concerning editing, please email me at michal dot ovadek at gu dot se.
