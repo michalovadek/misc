@@ -30,6 +30,7 @@ We will in any case do an automated clean up after all pages are re-assembled.
 
 We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
 - line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
+- in the plain text format that we force the documents into we cannot reflect horizontal positioning on the page, such as when sitting judges are listed next to each other at the end of a ruling. In this case the name of each judge can be put on a separate line
 
 ## Examples
 
@@ -39,7 +40,7 @@ The following excertps illustrate the desired end results of paragraph editing i
 
 ![image](https://user-images.githubusercontent.com/46047818/156618347-ab55652a-e6c3-4532-8808-56dcb67af066.png)
 
-In the following example the text of the Advocate-General Opinion below the ruling does not pertain to the ECLI number we are editing and so it is deleted in the text editor.
+In the following example the text of the Advocate-General Opinion below the ruling does not pertain to the ECLI number we are editing and so it is deleted in the text editor (as is the running header on top).
 
 ![image](https://user-images.githubusercontent.com/46047818/156821351-aefc549b-13d4-4d22-9ea3-140c6fa93045.png)
 
