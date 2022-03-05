@@ -45,6 +45,10 @@ In the following example the text of the Advocate-General Opinion below the ruli
 
 ![image](https://user-images.githubusercontent.com/46047818/156821351-aefc549b-13d4-4d22-9ea3-140c6fa93045.png)
 
+In the following example, the raw text did not contain the paragraph number ("7"), so it was added manually. Paragraph numbers are important to retain in the processed text.
+
+![image](https://user-images.githubusercontent.com/46047818/156882436-baac4556-a451-44c3-bf4d-cd94a31d447f.png)
+
 ## Contact
 
 In case you encounter any issues or have questions concerning editing, please email me at michal dot ovadek at gu dot se.
