@@ -19,6 +19,7 @@ The **primary objective** is to ensure that paragraphs in the text flow in the c
 
 Additionally, you may also implement the following fixes:
 - if you see an obvious typo, you can correct it
+- if you see the raw text does not contain paragraph numbers found in the scanned document, add them
 - where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
 - concatenate hyphenated words at the end of a line
 - delete the running header on top of the page
