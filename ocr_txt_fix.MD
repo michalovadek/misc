@@ -4,12 +4,11 @@
 
 1. Navigate to http://www.iuropa.pol.gu.se/CJEU-database/CJEU-text-corpus/text-editor
 2. Sign in with your credentials
-3. Search for an ECLI number or based on criteria to start editing
-4. Check text against page image and if necessary edit text
-5. Click "Code as correct" when the check is complete to save the edit
-6. You are automatically taken to the next page to edit
+3. Search for an ECLI number or based on criteria to start editing. **Pages with columns are a priority**
+4. Check text against page image and edit the text accordingly
+5. Click "Code" when the check is complete to save and proceed to the next edit
 
-Note that if you leave the editing window open but you are inactive, you will be signed out after some time. Always complete the page you are on to prevent unsaved work being lost.
+Note that if you leave the editing window open but you are inactive for more than 12 hours, you will be signed out. Avoid progress being lost by clicking "Save" which will not mark the page as complete but save your progress.
 
 ## Coding decisions
 
@@ -17,7 +16,7 @@ The **primary objective** is to ensure that paragraphs in the text flow in the c
 
 **Paragraphs must be separated by an empty new line (pressing Enter).** We consider lines such as "In Case 1/54," as separate paragraphs, but the most important thing is to identify and separate *true* paragraphs in the ordinary sense of the word, i.e. blocks of sentences. Assembling the raw text (you may encounter some light preprocessing) into correct paragraph blocks will typically entail merging lines but you may also need to move text around or split wrongly merged text.
 
-Additionally, you may also implement the following fixes:
+Additionally, we implement the following fixes:
 - if you see an obvious typo, you can correct it
 - if you see the raw text does not contain paragraph numbers found in the scanned document, add them
 - where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
