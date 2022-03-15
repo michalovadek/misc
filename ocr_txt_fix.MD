@@ -27,8 +27,6 @@ Additionally, we implement the following fixes:
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 - if you encounter a table, you can delete its contents in the text editor and instead include one line that reads: \[table\]
 
-We will in any case do an automated clean up after all pages are re-assembled.
-
 We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
 - line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
 - in the plain text format that we force the documents into we cannot reflect horizontal positioning on the page, such as when sitting judges are listed next to each other at the end of a ruling. In this case the name of each judge can be put on a separate line
