@@ -26,6 +26,7 @@ Additionally, we implement the following fixes:
 - remove any weird characters that obviously are not part of the original text
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 - if you encounter a table, you can delete its contents in the text editor and instead include one line that reads: \[table\]
+- the OCR engine frequently struggles to format dash-separated clauses or phrases in sentences - make sure there is a space before and after each separating dash (does __not__ apply to hyphens within words like decision-making)
 
 We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
 - line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
