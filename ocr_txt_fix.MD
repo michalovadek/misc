@@ -18,10 +18,11 @@ The **primary objective** is to ensure that paragraphs in the text flow in the c
 
 Additionally, we implement the following fixes:
 - if you see an obvious typo, you can correct it
+- watch out for missing short words (e.g. "on", "to", "an", "a")
 - if you see the raw text does not contain paragraph numbers found in the scanned document, add them
-- where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
 - concatenate hyphenated words at the end of a line
 - delete the running header on top of the page
+- where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
 - remove the page number from the bottom of the page
 - remove any weird characters that obviously are not part of the original text
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
