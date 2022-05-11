@@ -17,7 +17,7 @@ The **primary objective** is to ensure that paragraphs in the text flow in the c
 **Paragraphs must be separated by an empty new line (pressing Enter).** We consider lines such as "In Case 1/54," as separate paragraphs, but the most important thing is to identify and separate *true* paragraphs in the ordinary sense of the word, i.e. blocks of sentences. Assembling the raw text (you may encounter some light preprocessing) into correct paragraph blocks will typically entail merging lines but you may also need to move text around or split wrongly merged text.
 
 Additionally, we implement the following fixes:
-- if you see an obvious typo, you can correct it
+- if you see an obvious typo, you can correct it (e.g. commonly "Count" instead of "Court", "Anicle" instead of "Article" etc.)
 - watch out for missing short words (e.g. "on", "to", "an", "a")
 - if you see the raw text does not contain paragraph numbers found in the scanned document, add them
 - concatenate hyphenated words at the end of a line
