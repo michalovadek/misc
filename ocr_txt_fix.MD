@@ -18,8 +18,8 @@ The **primary objective** is to ensure that paragraphs in the text flow in the c
 
 Additionally, we implement the following fixes:
 - if you see an obvious typo, you can correct it (e.g. commonly "Count" instead of "Court", "Anicle" instead of "Article" etc.)
-- watch out for missing short words (e.g. "on", "to", "an", "a")
-- if you see the raw text does not contain paragraph numbers found in the scanned document, add them
+- watch out for missing short words (e.g. "on", "to", "an", "a", "et")
+- if you see the raw text does not contain paragraph numbers (or other characters) found in the scanned document, add them
 - concatenate hyphenated words at the end of a line
 - delete the running header on top of the page
 - where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
@@ -28,6 +28,7 @@ Additionally, we implement the following fixes:
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 - if you encounter a table, you can delete its contents in the text editor and instead include one line that reads: \[table\]
 - the OCR engine frequently struggles to format dash-separated clauses or phrases in sentences - make sure there is a space before and after each separating dash (does __not__ apply to hyphens within words like decision-making)
+- symbols denoting enumeration in French like "°" (e.g. 1° ... text ...) can be replaced with a "." full stop (e.g. 1. ... text ...), but remain consistent if you do this
 
 We are aware that in some situations you are forced to exercise your judgment to complete the edit. You may encounter, for example:
 - line breaks that appear to break the natural flow of what would otherwise be a reasonable paragraph, for example when in older documents a company's address or lawyers are listed on separate lines. In this situation you can break the general rule that each line should be a separate paragraph and concatenate the text
