@@ -23,6 +23,7 @@ Additionally, we implement the following fixes:
 - concatenate hyphenated words at the end of a line
 - delete the running header on top of the page
 - where a footnote number is used in text as superscript, enclose the footnote number in parentheses and put a space before and after it to separate it from surrounding text
+- fix footnotes as per usual and leave them in their place (usually bottom of page)
 - remove the page number from the bottom of the page
 - remove any weird characters that obviously are not part of the original text
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
