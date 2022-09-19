@@ -29,6 +29,7 @@ Additionally, we implement the following fixes:
 - delete text that obviously does not belong to the ECLI page you are editing (e.g. when a different document ends or begins on the same page)
 - if you encounter a table, you can delete its contents in the text editor and instead include one line that reads: \[table\]. The same applies when you encounter a table of contents: replace with \[Table of contents\]
 - the OCR engine frequently struggles to format dash-separated clauses or phrases in sentences - make sure there is a space before and after each separating dash (does __not__ apply to hyphens within words like "decision-making")
+- watch out for quotation marks in French texts - they can be often misrecognized by the engine. French texts typically use so-called "guillemets" which should look like this: « »
 - symbols denoting enumeration in French like "°" (e.g. 1° ... text ...) can be replaced with a "." full stop (e.g. 1. ... text ...), but remain consistent if you do this
 - fix summaries and keywords as per usual and leave them in place
 
